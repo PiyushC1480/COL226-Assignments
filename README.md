@@ -19,11 +19,9 @@ Rest of the func tionality defined in rational.sml can't be used in the interfac
 
 ## Assignment 4:
 
-the "rationalnumber" are generated from the graamer in assignmnet 2. 
-"intnumber" are generated from the bigint grammer on the second assignment.
--------------------------------------------------------------------------
+the "rationalnumber" are generated from the graamer in assignmnet 2. "intnumber" are generated from the bigint grammer on the second assignment.
 NOTE: FOR COMPILING THE FUNCTION YOU HAVE TO RUN "run.sml" FILE 
-------------------------------------------------------------------
+
 File names and function. :
 the following file has been implemented 
 1) compile.sml : this is to compile the lex and yacc file for an input file . this will give the AST.
