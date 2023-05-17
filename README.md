@@ -1,23 +1,23 @@
 # COL226-Assignments
 
-##Assignment 1:
+## Assignment 1:
 This algorithm uses the long division method to calculate the square root of an integer in the form of a string. It first separates the input string into pairs of digits and stores them in a list, which is then reversed. Next, the algorithm uses a helper function called "nearest Sqrt" to find the nearest square value which is less than or equal to the first digit of the input string. This nearest square value is then used as the first digit of the square root.
 The algorithm then uses another helper function "step1" to update the input list by subtracting the square of the nearest square value from the first digit of the input string. This updated list is then passed to the next helper function "helper1" which uses a recursive approach to find the next digits of the square root.
 The function "helper1" takes the updated list and the nearest square value as inputs and starts a loop. In each iteration of the loop, it concatenates the first two digits of the input list, and uses a function "recurse" to find the next digit of the square root by dividing the concatenated digits by a value calculated from the nearest square value and the current digit of the square root. It then updates the input list by subtracting the product of the current digit of the square root and a value calculated from the nearest square value and the current digit of the square root. The current digit of the square root is then added to the final square root value.
 The loop continues until the input list has only one digit left. At that point, the final square root value and the remaining digit in the input list are returned as the integral part and the remainder of the square root respectively.
 This algorithm can be useful when the input integer is very large and cannot be stored or processed directly as a whole number. The long division method allows the calculation of the square root to be done incrementally and in a way that is memory efficient. However, it may have a relatively large time complexity due to the many recursive calls and looping through the input list.
 
-##Assignment 2:
+## Assignment 2:
 SML function mdt2html which takes a single input text file filename.mdt and translates it into a HTML file filename.html.
 Specifications are listed in the mdtab-2023.md.pdf
 
-##Assignment 3:
+## Assignment 3:
 a (command-line) user-interface for rational number expressions using ML-lex ad ML-Yacc.
 I have made a simple command line interface for rational function. The base files of lex and yacc were takes from the official document available on SML/NJ website. 
 the folder parser and the files within it will simply make a command line interface where suer can evaluate long expressions involvinf rationals ( +  for add,  - for sub , * for mult and / for div). He will also be able to convert a decimal to rational.
 Rest of the func tionality defined in rational.sml can't be used in the interface and can be used by importing rational sml in the SML REPL.
 
-##Assignment 4:
+## Assignment 4:
 
 the "rationalnumber" are generated from the graamer in assignmnet 2. 
 "intnumber" are generated from the bigint grammer on the second assignment.
@@ -66,6 +66,6 @@ Following error are implemented
 6) TypeMisMatchException : if two different types of number are used in a operator. say ".+." being used on two bigint number. 
 
 
-Assignment 5:
+## Assignment 5:
 4 prolog programs for the problems listed in 4-simple-problems.pdf
 
