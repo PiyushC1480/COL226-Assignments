@@ -1,0 +1,58 @@
+rational x,y,z;
+integer a,b,c;
+boolean d,e,f;
+
+{
+    a := 2;                    
+    b := a+a+a*a+a/a;
+    c := (((a+b)*(1))*(a+b));
+    x := fromDecimal(+1.(3));
+    y := x.*.make_rat(c,b);
+    z := x./.y;
+    d := tt;
+    e := ff;
+    f := ! ((d && e) || (e)); 
+    
+    print(a);
+    print(b);
+    print(c);
+    print(x);
+    print(y);
+    print(z);
+    print(d);
+    print(e);
+    print(f);
+
+    if d then
+        {
+            print(a-b);
+            if x >= rat(2) then 
+                {
+                
+                }
+            else
+                {
+                    print(y.*.z);
+                    if ((y.*.z)=x) then 
+                        {
+                            print(x);      
+                            while (a < 10) do
+                            {
+                                print(a);
+                                a := a + 1;
+                            } od;  
+                        }
+                    else
+                        {
+                            
+                    fi;
+                }
+            fi; 
+        } 
+    else 
+        { 
+          
+        }
+    fi;
+    print(a); 
+}

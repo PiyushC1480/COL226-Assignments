@@ -1,0 +1,196 @@
+open DataTypes;
+(* declare a hashmap to store the declared variables *)
+val typeTable : (string, Type) HashTable.hash_table  = 
+	HashTable.mkTable (HashString.hashString, op=)(42, Fail "identifier not found");
+
+exception VariableRedeclarationException of string ; 
+exception TypeMisMatchException ; 
+exception UnDeclaredVariableException ; 
+
+fun insertInTable( idList : string list , idType : Type) = 
+        if ( null idList ) then () else ( if isSome (HashTable.find typeTable (hd idList)) then () else 
+                HashTable.insert typeTable ( hd idList , idType ) ; insertInTable( tl idList , idType) 
+                ) ; 
+
+fun checkIntOfID( id: string ) = 
+        if( isSome (HashTable.find typeTable  id)) 
+        then
+            case ( HashTable.lookup typeTable id ) of Bigint => () | Rational => ( raise TypeMisMatchException)  |  Bool => ( raise TypeMisMatchException) 
+                                                      
+        else
+                raise UnDeclaredVariableException ; 
+fun checkBoolOfID( id: string ) = 
+        if( isSome (HashTable.find typeTable  id)) 
+        then
+            case ( HashTable.lookup typeTable id ) of Bigint => ( raise TypeMisMatchException) | Rational => ( raise TypeMisMatchException)  | Bool => () 
+                                                      
+        else
+                raise UnDeclaredVariableException ; 
+fun checkRatOfID( id: string ) = 
+        if( isSome (HashTable.find typeTable  id)) 
+        then
+            case ( HashTable.lookup typeTable id ) of Bigint => ( raise TypeMisMatchException) | Rational => ()  | Bool => ( raise TypeMisMatchException) 
+                                                      
+        else
+                raise UnDeclaredVariableException ;
+				
+fun getType ( id : string ) = 
+         if( isSome (HashTable.find typeTable  id)) 
+         then 
+                HashTable.lookup typeTable id 
+         else 
+                raise UnDeclaredVariableException ; 
+
+
+fun checkBool ( typeToBeChecked : Type ) = 
+        if ( typeToBeChecked = Bool ) then true else false ; 
+fun checkInt ( typeToBeChecked : Type ) = 
+        if ( typeToBeChecked = Bigint ) then true else false ; 
+fun checkRat ( typeToBeChecked : Type ) = 
+        if ( typeToBeChecked = Rational ) then true else false ; 
+fun checkSameType ( A : Type , B : Type ) = (A = B ) ; 
+
+
+%%
+%eop EOF 
+
+(* %pos declares the type of positions for terminals.
+Each symbol has an associated left and right position. *)
+
+%pos int
+%left RATSUB RATPLUS
+%left RATTIMES RATDIV
+%left ORELSE ANDALSO
+%left EQUAL NOTEQUAL
+%left GREATER GREATEREQ LESS LESSEQ
+%left INTPLUS INTSUB
+%left INTTIMES INTDIV INTMOD 
+%right NOT NEGATE
+%left LBRACE RBRACE
+%left LPAREN RPAREN
+%left IF THEN ELSE FI
+%left WHILE DO OD 
+%left PRINT READ
+%right CALL
+%right MAKERAT SHOWRAT SHOWDEC FROMDEC TODEC RAT INVERSE
+%left COMMA
+%left TRUE FALSE
+
+%term NUM of BigInt.bigint |
+	SEMI | EOF | DECIMAL of Rational.rational | RATPLUS | RATTIMES | RATSUB | RATDIV |
+	INTPLUS | INTTIMES | INTSUB | INTDIV | INTMOD |
+	EQUAL | NOTEQUAL | LESS | GREATER | LESSEQ | GREATEREQ |
+	ASSIGN | LPAREN | RPAREN | LBRACE | RBRACE  |
+	NOT | ANDALSO | ORELSE | NEGATE | INTNEGATE |
+	PROCEDURE | VAR | RATIONAL | INTEGER | BOOL | 
+	IF | THEN | ELSE | FI | 
+	WHILE | DO | OD | 
+	PRINT | READ | CALL |
+	MAKERAT | SHOWRAT  | SHOWDEC | FROMDEC | TODEC |
+	COMMA | IDENTIFIER of string | BOOLEAN of string |
+	TRUE | FALSE | RAT | INVERSE 
+
+
+%nonterm  start of ProgramAST
+		| block of Block
+		| decseq of DeclarationSeq
+		| cmdseq of Command list
+		| ncmd of Command list
+		| cmd of Command 
+		| vardeclis of VarDecls list
+		| vardec of VarDecls 
+		| identlist of string list
+		| procdecls of ProcDef list 
+		| procdef of ProcDef
+		| typedec of Type
+		| expr of Type * Expression
+
+
+%name rationalPL0
+(* see fot the key words . do not define them in the terminals *)
+%prefer RATPLUS RATTIMES RATDIV RATSUB
+%keyword TRUE FALSE RAT INVERSE PROCEDURE VAR RATIONAL INTEGER BOOL IF THEN ELSE FI WHILE DO OD PRINT READ CALL MAKERAT SHOWRAT SHOWDEC FROMDEC TODEC COMMA
+%noshift EOF
+%verbose
+
+%%
+
+(* the parser returns the value associated with the expression *)
+(* put the identifier inside the hashmap *)
+(* vardec and procdex can be empty so change the data sructure to make then optional. try to*)
+
+start :   block 			(HashTable.clear typeTable ; Program(block))
+
+block : decseq cmdseq 		((Block(decseq,cmdseq) ))
+
+decseq : vardeclis procdecls	((DeclarationSeq(vardeclis,procdecls)))
+
+vardeclis : (([]))
+			| vardec vardeclis ((vardec :: vardeclis))
+
+vardec : typedec IDENTIFIER identlist SEMI  	((insertInTable( IDENTIFIER :: identlist  , typedec) ;VarDecls(IDENTIFIER :: identlist,typedec)))
+
+typedec : RATIONAL  ((Rational))
+		| INTEGER 	((Bigint))
+		| BOOL 		((Bool))
+
+identlist:(([]))
+		| COMMA IDENTIFIER identlist  ((IDENTIFIER :: identlist))
+
+procdecls : (([]))
+			| procdef SEMI procdecls  (( procdef:: procdecls ))
+
+procdef : PROCEDURE IDENTIFIER block  ((ProcDef(IDENTIFIER,block)))
+
+cmdseq : (([]))
+		| LBRACE ncmd RBRACE ((ncmd))
+
+ncmd : (([]))
+		| cmd ncmd ((cmd ::ncmd ))
+
+cmd : IDENTIFIER ASSIGN expr SEMI	((  if (checkSameType( getType IDENTIFIER,  #1 expr)) then () else raise TypeMisMatchException ; AssignmentCmd(IDENTIFIER,#2 expr) ))
+	| CALL IDENTIFIER SEMI			 ((CallCmd(IDENTIFIER)))
+	| READ LPAREN IDENTIFIER RPAREN SEMI ((ReadCmd(IDENTIFIER)))
+	| PRINT LPAREN expr RPAREN 	SEMI	((PrintCmd(#2 expr)))
+	| IF expr THEN cmdseq ELSE cmdseq FI SEMI  ((if( checkBool(#1 expr)) then () else raise TypeMisMatchException ;ConditionalCmd(#2 expr, cmdseq1, cmdseq2 ) ))
+	| WHILE expr DO cmdseq OD SEMI			(( if( checkBool(#1 expr)) then () else raise TypeMisMatchException ; WhileCmd(#2 expr,cmdseq)))
+
+expr : expr RATPLUS expr (( if checkRat(#1 expr1) andalso checkRat( #1 expr2) then () else raise TypeMisMatchException ;(Rational, RatAdd(#2 expr1 , #2 expr2)) ))
+		| expr RATSUB expr ((if checkRat(#1 expr1) andalso checkRat( #1 expr2) then () else raise TypeMisMatchException ;(Rational, RatSub(#2 expr1 , #2 expr2)) ))
+		| expr RATTIMES expr (( if checkRat(#1 expr1) andalso checkRat( #1 expr2) then () else raise TypeMisMatchException ;(Rational,RatMul(#2 expr1 , #2 expr2)) ))
+		| expr RATDIV expr (( if checkRat(#1 expr1) andalso checkRat( #1 expr2) then () else raise TypeMisMatchException ;(Rational,RatDiv(#2 expr1 , #2 expr2)) ))
+		| INVERSE expr (( if checkRat(#1 expr) then () else  raise TypeMisMatchException ; (Rational ,RatInv(#2 expr)) ))
+		| NEGATE expr ((if checkRat(#1 expr) then () else  raise TypeMisMatchException ; (Rational , Neg(#2 expr)) ))
+		| INTNEGATE expr ((if checkInt(#1 expr) then () else  raise TypeMisMatchException ; (Bigint , IntNeg(#2 expr)) ))
+		| DECIMAL (( (Rational, RationalNum(DECIMAL)) ))
+
+		| IDENTIFIER (( getType IDENTIFIER  , Identifier(IDENTIFIER) ))
+
+		| MAKERAT LPAREN expr COMMA expr RPAREN (( if checkInt( #1 expr1) andalso checkInt(#1 expr2) then () else raise TypeMisMatchException ; (Rational,RatMake(#2 expr1, #2 expr2)) ))
+		| RAT LPAREN expr RPAREN (( if checkInt(#1 expr) then () else raise TypeMisMatchException ; (Rational, RatRat(#2 expr)) ))
+		| SHOWRAT LPAREN expr RPAREN ((if checkRat(#1 expr) then () else  raise TypeMisMatchException ; (Rational , RatShow(#2 expr)) ))
+		| SHOWDEC LPAREN expr RPAREN ((if checkRat(#1 expr) then () else  raise TypeMisMatchException ; (Rational , RatShowDec(#2 expr)) ))
+		| FROMDEC LPAREN expr RPAREN ((if checkRat(#1 expr) then () else  raise TypeMisMatchException ; (Rational , RatFromDec(#2 expr)) ))
+		| TODEC LPAREN expr RPAREN ((if checkRat(#1 expr) then () else  raise TypeMisMatchException ; (Rational , RatToDec(#2 expr)) ))
+
+		| expr INTPLUS expr (( if checkInt( #1 expr1) andalso checkInt(#1 expr2) then () else raise TypeMisMatchException ;(Bigint , IntAdd(#2 expr1, #2 expr2)) ))
+		| expr INTSUB expr (( if checkInt( #1 expr1) andalso checkInt(#1 expr2) then () else raise TypeMisMatchException ;(Bigint ,IntSub(#2 expr1 , #2 expr2)) ))
+		| expr INTTIMES expr (( if checkInt( #1 expr1) andalso checkInt(#1 expr2) then () else raise TypeMisMatchException ;(Bigint ,IntMul(#2 expr1 , #2 expr2)) ))
+		| expr INTDIV expr (( if checkInt( #1 expr1) andalso checkInt(#1 expr2) then () else raise TypeMisMatchException ;(Bigint ,IntDiv(#2 expr1 , #2 expr2)) ))
+		| expr INTMOD expr (( if checkInt( #1 expr1) andalso checkInt(#1 expr2) then () else raise TypeMisMatchException ;(Bigint ,IntMod(#2 expr1 , #2 expr2)) ))
+		| INTPLUS expr(expr)
+		| NUM (( Bigint , BigInt(NUM)))
+		
+		| expr ANDALSO expr ((  if checkBool(#1 expr1) andalso checkBool(#1 expr2) then () else raise TypeMisMatchException ;(Bool ,BoolAnd(#2 expr1, #2 expr2)) ))
+		| expr ORELSE expr (( if checkBool(#1 expr1) andalso checkBool(#1 expr2) then () else raise TypeMisMatchException ;(Bool , BoolOr(#2 expr1, #2 expr2)) ))
+		| NOT expr (( if checkBool (#1 expr) then () else raise TypeMisMatchException ; (Bool ,BoolNot(#2 expr)) ))
+		| expr EQUAL expr (( if checkSameType( #1 expr1 , #1 expr2) then () else raise TypeMisMatchException ;(Bool , BoolEqual(#2 expr1, #2 expr2)) ))
+		| expr NOTEQUAL expr ((  if checkSameType( #1 expr1 , #1 expr2) then () else raise TypeMisMatchException ;(Bool , BoolNotEqual(#2 expr1, #2 expr2)) ))
+		| expr LESS expr ((  if checkSameType( #1 expr1 , #1 expr2) then () else raise TypeMisMatchException ;(Bool , BoolLessThan(#2 expr1, #2 expr2)) ))
+		| expr LESSEQ expr ((  if checkSameType( #1 expr1 , #1 expr2) then () else raise TypeMisMatchException ;(Bool , BoolLessThanOrEqual(#2 expr1, #2 expr2)) ))
+		| expr GREATER expr ((  if checkSameType( #1 expr1 , #1 expr2) then () else raise TypeMisMatchException ;(Bool , BoolGreaterThan(#2 expr1, #2 expr2)) ))
+		| expr GREATEREQ expr ((  if checkSameType( #1 expr1 , #1 expr2) then () else raise TypeMisMatchException ;(Bool , BoolGreaterThanOrEqual(#2 expr1, #2 expr2)) ))
+		| TRUE ((Bool , BoolTrue))
+		| FALSE ((Bool ,BoolFalse))
+		| LPAREN expr RPAREN (expr)
+		| expr (expr)

@@ -1,0 +1,23 @@
+Library
+    structure rationalPL0
+    structure FunctionStack
+    structure Rational_Eval
+    structure Interpreter
+is
+    datatypes.sml
+    rationalPL0.lex
+    rationalPL0.grm:MLYacc
+    rational.sml
+    glue.sml(* Lex, parse *)
+    reader.sml
+    stack.sml
+    stackDT.sml
+    compile.sml
+    interpret.sml
+    $/basis.cm 
+    $/ml-yacc-lib.cm
+    $smlnj/compiler/compiler.cm 
+    $/smlnj-lib.cm
+
+
+  

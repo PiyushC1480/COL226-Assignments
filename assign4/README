@@ -1,0 +1,112 @@
+
+COL226 ASSIGNEMNT 4
+Piyush Chauhan
+2021CS11010
+-----------------------------------------------
+grammar defined for the language is as below.
+
+program ==> block
+block ==> decsq cmdsq 
+decseq ==> vardec procdec
+
+vardec ==> $ \epsilon $ | typedec IDENT COMMA identlist SEMICOLON
+
+typedex ==> RATIONAL | INTEGER | BOQOL 
+
+identlist ==> IDENT | IDENT COMMA identlist 
+
+procdec ==> $ \epsilon $ | procdef SEMICOLON procdec SEMICOLON
+
+procdef ==> PROCEDURE IDENT block 
+
+cmdseq ==> LBRACE cmd SEMICOLON RBRACE  
+
+cmd ==> IDENT ASSIGN expr | CALL IDENT | READ LPAREN IDENT RPAREN | PRINT LPAREN expr RPAREN | IF boolexpr THEN cmdseq ELSE cmdseq FI | WHICH boolexpr DO cmdseq OD
+
+expr  ==> boolexpr | ratexpr | intexpr 
+
+
+ratexpr ==> ratexpr RATADD ratexpr
+            | ratexpr RATSUB ratexpr
+            | ratexpr RATMUL ratexpr 
+            | ratexpr RATDIV ratexpr
+            | NEGATE ratexpr
+            | ABS ratexpr
+            | INVERSE ratexpr
+            | LPAREN ratexpr RPAREN
+            | rationalnumber
+
+intexpr ==> intexpr INTADD intexpr
+            | intexpr INTSUB intexpr
+            | intexpr INTMUL intexpr 
+            | intexpr INTDIV intexpr
+            | intexpr INTMOD intexpr
+            | NEGATE intexpr
+            | ABS intexpr
+            | LPAREN intexpr RPAREN
+            | intnumber
+
+boolexpr ==>  ratexpr LT ratexpr
+            | ratexpr LTE ratexpr
+            | ratexpr GT ratexpr
+            | ratexpr GTE ratexpr
+            | ratexpr EQ ratexpr
+            | ratexpr NEQ ratexpr 
+            | intexpr LT intexpr
+            | intexpr LTE intexpr
+            | intexpr GT intexpr
+            | intexpr GTE intexpr
+            | intexpr EQ intexpr
+            | intexpr NEQ intexpr 
+            | boolexpr ANDALSO boolexpr
+            | boolexpr ORELSE boolexpr 
+            | NOT boolexpr 
+            | LPAREN boolexpr RPAREN 
+            | TRUE
+            | FALSE 
+
+the "rationalnumber" are generated from the graamer in assignmnet 2. 
+"intnumber" are generated from the bigint grammer on the second assignment.
+-------------------------------------------------------------------------
+NOTE: FOR COMPILING THE FUNCTION YOU HAVE TO RUN "run.sml" FILE 
+------------------------------------------------------------------
+File names and function. :
+the following file has been implemented 
+1) compile.sml : this is to compile the lex and yacc file for an input file . this will give the AST.
+2) datatypes.sml : this contains all the datatypes defined for the grammar. 
+3) glue.sml : this is a glue code for lex and yacc to be parsed.
+4) hashmap.sml : this contains implementation of a hashmap.
+5) input.rat : input file 
+6) rational.sml : this contain the rational and bigInt data structure . details of these were provided in assigment 3
+7) rationalPL0.cm : compile file to compile all the strucutres
+8) rationalPL0.lex :  lexer for token generation
+9) rationalPL0.grm  : contains the grammar for the language. 
+        I am checking the types of terminals on which the operation is defined by making  a hashmap and putting the values in it.
+10) reader.sml : this contains the main Structure . details are provided below.
+11) stack.sml : contains a implementation of stack in sml
+12) stackDT.sml : "contains the structure for all the commands which will be stored in the Control stack."
+
+
+READER.sml
+
+1) The lex and yacc file are giving the AST for the given program . 
+2) create_stack function takes this tree and generates ControlStack.
+3) for Symbol table and memory i have implemented the following strucutres
+        a. memory :  this is a string array which will store the values of variables.
+        b. memorytable : a hashmap which will map the name of the variable to its location in memory array.
+        c. scopetable :  a hashmap which will map the name of the variable to its scope .
+        d. num_var : this keeps count of the number of varibales declared 
+4) for computation i have created a Value stack.
+5) the names of the function declared in the reader.sml show the functions they perform.
+
+Working
+First I am converting the AST to the postfix notation and then storing it in control stack. 
+then i'm taking popping the commands from ControlStack one by one and processign it using execute function.
+
+Following error are implemented 
+1) rat error: any error in expression involving rationals will give a rat error
+2) UnDeclaredVariableException: whenever a variable is used wihout declaration.
+3) OperationNotFound: symbol which is not part of operators.
+4) ProcedureNotDeclared: procedure is used wihotu declaration
+5) VariableRedeclarationException : when a varible is redeclared .
+6) TypeMisMatchException : if two different types of number are used in a operator. say ".+." being used on two bigint number. 

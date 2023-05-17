@@ -1,0 +1,4699 @@
+484 reduce/reduce conflicts
+233 shift/reduce conflicts
+1 rule not reduced
+
+warning: rule <expr : expr > will never be reduced
+error:  state 38: shift/reduce conflict (shift DO, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift THEN, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift SEMI, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift RPAREN, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on COMMA
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on DO
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on THEN
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on ORELSE
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on ANDALSO
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on RPAREN
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on GREATEREQ
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on LESSEQ
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on GREATER
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on LESS
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on NOTEQUAL
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on EQUAL
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on INTMOD
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on INTDIV
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on INTSUB
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on INTTIMES
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on INTPLUS
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on RATDIV
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on RATSUB
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on RATTIMES
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on RATPLUS
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on SEMI
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on COMMA
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on DO
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on THEN
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on ORELSE
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on ANDALSO
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on RPAREN
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on GREATEREQ
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on LESSEQ
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on GREATER
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on LESS
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on NOTEQUAL
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on EQUAL
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on INTMOD
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on INTDIV
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on INTSUB
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on INTTIMES
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on INTPLUS
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on RATDIV
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on RATSUB
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on RATTIMES
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on RATPLUS
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on SEMI
+error:  state 87: shift/reduce conflict (shift ORELSE, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift ANDALSO, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift GREATEREQ, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift LESSEQ, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift GREATER, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift LESS, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift NOTEQUAL, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift EQUAL, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift INTMOD, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift INTDIV, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift INTSUB, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift INTTIMES, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift INTPLUS, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift RATDIV, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift RATSUB, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift RATTIMES, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift RATPLUS, reduce by rule 30)
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on COMMA
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on DO
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on THEN
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on ORELSE
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on ANDALSO
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on RPAREN
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on GREATEREQ
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on LESSEQ
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on GREATER
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on LESS
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on NOTEQUAL
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on EQUAL
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on INTMOD
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on INTDIV
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on INTSUB
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on INTTIMES
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on INTPLUS
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on RATDIV
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on RATSUB
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on RATTIMES
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on RATPLUS
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on SEMI
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on COMMA
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on DO
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on THEN
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on ORELSE
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on ANDALSO
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on RPAREN
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on GREATEREQ
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on LESSEQ
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on GREATER
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on LESS
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on NOTEQUAL
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on EQUAL
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on INTMOD
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on INTDIV
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on INTSUB
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on INTTIMES
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on INTPLUS
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on RATDIV
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on RATSUB
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on RATTIMES
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on RATPLUS
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on SEMI
+error:  state 90: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift RPAREN, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on COMMA
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on DO
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on THEN
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on ORELSE
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on ANDALSO
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on RPAREN
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on GREATEREQ
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on LESSEQ
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on GREATER
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on LESS
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on NOTEQUAL
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on EQUAL
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on INTMOD
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on INTDIV
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on INTSUB
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on INTTIMES
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on INTPLUS
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on RATDIV
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on RATSUB
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on RATTIMES
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on RATPLUS
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on SEMI
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on COMMA
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on DO
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on THEN
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on ORELSE
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on ANDALSO
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on RPAREN
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on GREATEREQ
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on LESSEQ
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on GREATER
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on LESS
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on NOTEQUAL
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on EQUAL
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on INTMOD
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on INTDIV
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on INTSUB
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on INTTIMES
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on INTPLUS
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on RATDIV
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on RATSUB
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on RATTIMES
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on RATPLUS
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on SEMI
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on COMMA
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on DO
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on THEN
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on ORELSE
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on ANDALSO
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on RPAREN
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on GREATEREQ
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on LESSEQ
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on GREATER
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on LESS
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on NOTEQUAL
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on EQUAL
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on INTMOD
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on INTDIV
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on INTSUB
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on INTTIMES
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on INTPLUS
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on RATDIV
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on RATSUB
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on RATTIMES
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on RATPLUS
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on SEMI
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on COMMA
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on DO
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on THEN
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on ORELSE
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on ANDALSO
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on RPAREN
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on GREATEREQ
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on LESSEQ
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on GREATER
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on LESS
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on NOTEQUAL
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on EQUAL
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on INTMOD
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on INTDIV
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on INTSUB
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on INTTIMES
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on INTPLUS
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on RATDIV
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on RATSUB
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on RATTIMES
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on RATPLUS
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on SEMI
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on COMMA
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on DO
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on THEN
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on ORELSE
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on ANDALSO
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on RPAREN
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on GREATEREQ
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on LESSEQ
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on GREATER
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on LESS
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on NOTEQUAL
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on EQUAL
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on INTMOD
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on INTDIV
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on INTSUB
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on INTTIMES
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on INTPLUS
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on RATDIV
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on RATSUB
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on RATTIMES
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on RATPLUS
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on SEMI
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on COMMA
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on DO
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on THEN
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on ORELSE
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on ANDALSO
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on RPAREN
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on GREATEREQ
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on LESSEQ
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on GREATER
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on LESS
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on NOTEQUAL
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on EQUAL
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on INTMOD
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on INTDIV
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on INTSUB
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on INTTIMES
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on INTPLUS
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on RATDIV
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on RATSUB
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on RATTIMES
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on RATPLUS
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on SEMI
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on COMMA
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on DO
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on THEN
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on ORELSE
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on ANDALSO
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on RPAREN
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on GREATEREQ
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on LESSEQ
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on GREATER
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on LESS
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on NOTEQUAL
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on EQUAL
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on INTMOD
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on INTDIV
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on INTSUB
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on INTTIMES
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on INTPLUS
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on RATDIV
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on RATSUB
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on RATTIMES
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on RATPLUS
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on SEMI
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on COMMA
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on DO
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on THEN
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on ORELSE
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on ANDALSO
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on RPAREN
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on GREATEREQ
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on LESSEQ
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on GREATER
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on LESS
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on NOTEQUAL
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on EQUAL
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on INTMOD
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on INTDIV
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on INTSUB
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on INTTIMES
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on INTPLUS
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on RATDIV
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on RATSUB
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on RATTIMES
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on RATPLUS
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on SEMI
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on COMMA
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on DO
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on THEN
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on ORELSE
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on ANDALSO
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on RPAREN
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on GREATEREQ
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on LESSEQ
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on GREATER
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on LESS
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on NOTEQUAL
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on EQUAL
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on INTMOD
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on INTDIV
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on INTSUB
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on INTTIMES
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on INTPLUS
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on RATDIV
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on RATSUB
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on RATTIMES
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on RATPLUS
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on SEMI
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on COMMA
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on DO
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on THEN
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on ORELSE
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on ANDALSO
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on RPAREN
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on GREATEREQ
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on LESSEQ
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on GREATER
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on LESS
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on NOTEQUAL
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on EQUAL
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on INTMOD
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on INTDIV
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on INTSUB
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on INTTIMES
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on INTPLUS
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on RATDIV
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on RATSUB
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on RATTIMES
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on RATPLUS
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on SEMI
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on COMMA
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on DO
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on THEN
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on ORELSE
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on ANDALSO
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on RPAREN
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on GREATEREQ
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on LESSEQ
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on GREATER
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on LESS
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on NOTEQUAL
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on EQUAL
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on INTMOD
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on INTDIV
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on INTSUB
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on INTTIMES
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on INTPLUS
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on RATDIV
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on RATSUB
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on RATTIMES
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on RATPLUS
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on SEMI
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on COMMA
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on DO
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on THEN
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on ORELSE
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on ANDALSO
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on RPAREN
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on GREATEREQ
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on LESSEQ
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on GREATER
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on LESS
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on NOTEQUAL
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on EQUAL
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on INTMOD
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on INTDIV
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on INTSUB
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on INTTIMES
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on INTPLUS
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on RATDIV
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on RATSUB
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on RATTIMES
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on RATPLUS
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on SEMI
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on COMMA
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on DO
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on THEN
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on ORELSE
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on ANDALSO
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on RPAREN
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on GREATEREQ
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on LESSEQ
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on GREATER
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on LESS
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on NOTEQUAL
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on EQUAL
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on INTMOD
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on INTDIV
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on INTSUB
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on INTTIMES
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on INTPLUS
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on RATDIV
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on RATSUB
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on RATTIMES
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on RATPLUS
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on SEMI
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on COMMA
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on DO
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on THEN
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on ORELSE
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on ANDALSO
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on RPAREN
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on GREATEREQ
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on LESSEQ
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on GREATER
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on LESS
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on NOTEQUAL
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on EQUAL
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on INTMOD
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on INTDIV
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on INTSUB
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on INTTIMES
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on INTPLUS
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on RATDIV
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on RATSUB
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on RATTIMES
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on RATPLUS
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on SEMI
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on COMMA
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on DO
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on THEN
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on ORELSE
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on ANDALSO
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on RPAREN
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on GREATEREQ
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on LESSEQ
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on GREATER
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on LESS
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on NOTEQUAL
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on EQUAL
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on INTMOD
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on INTDIV
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on INTSUB
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on INTTIMES
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on INTPLUS
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on RATDIV
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on RATSUB
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on RATTIMES
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on RATPLUS
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on SEMI
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on COMMA
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on DO
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on THEN
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on ORELSE
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on ANDALSO
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on RPAREN
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on GREATEREQ
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on LESSEQ
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on GREATER
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on LESS
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on NOTEQUAL
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on EQUAL
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on INTMOD
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on INTDIV
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on INTSUB
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on INTTIMES
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on INTPLUS
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on RATDIV
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on RATSUB
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on RATTIMES
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on RATPLUS
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on SEMI
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on COMMA
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on DO
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on THEN
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on ORELSE
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on ANDALSO
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on RPAREN
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on GREATEREQ
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on LESSEQ
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on GREATER
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on LESS
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on NOTEQUAL
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on EQUAL
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on INTMOD
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on INTDIV
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on INTSUB
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on INTTIMES
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on INTPLUS
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on RATDIV
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on RATSUB
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on RATTIMES
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on RATPLUS
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on SEMI
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on COMMA
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on DO
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on THEN
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on ORELSE
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on ANDALSO
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on RPAREN
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on GREATEREQ
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on LESSEQ
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on GREATER
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on LESS
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on NOTEQUAL
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on EQUAL
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on INTMOD
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on INTDIV
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on INTSUB
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on INTTIMES
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on INTPLUS
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on RATDIV
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on RATSUB
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on RATTIMES
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on RATPLUS
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on SEMI
+error:  state 114: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift RPAREN, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift RPAREN, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift RPAREN, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift RPAREN, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift RPAREN, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift COMMA, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift RPAREN, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+
+state 0:
+
+	start : . block 
+
+	RATIONAL	shift 8
+	INTEGER	shift 7
+	BOOL	shift 6
+
+	start	goto 138
+	block	goto 5
+	decseq	goto 4
+	vardeclis	goto 3
+	vardec	goto 2
+	typedec	goto 1
+
+	.	reduce by rule 3
+
+
+state 1:
+
+	vardec : typedec . IDENTIFIER identlist SEMI 
+
+	IDENTIFIER	shift 9
+
+
+	.	error
+
+
+state 2:
+
+	vardeclis : vardec . vardeclis 
+
+	RATIONAL	shift 8
+	INTEGER	shift 7
+	BOOL	shift 6
+
+	vardeclis	goto 10
+	vardec	goto 2
+	typedec	goto 1
+
+	.	reduce by rule 3
+
+
+state 3:
+
+	decseq : vardeclis . procdecls 
+
+	PROCEDURE	shift 13
+
+	procdecls	goto 12
+	procdef	goto 11
+
+	.	reduce by rule 11
+
+
+state 4:
+
+	block : decseq . cmdseq 
+
+	LBRACE	shift 15
+
+	cmdseq	goto 14
+
+	.	reduce by rule 14
+
+
+state 5:
+
+	start : block .  (reduce by rule 0)
+
+
+
+	.	reduce by rule 0
+
+
+state 6:
+
+	typedec : BOOL .  (reduce by rule 8)
+
+
+
+	.	reduce by rule 8
+
+
+state 7:
+
+	typedec : INTEGER .  (reduce by rule 7)
+
+
+
+	.	reduce by rule 7
+
+
+state 8:
+
+	typedec : RATIONAL .  (reduce by rule 6)
+
+
+
+	.	reduce by rule 6
+
+
+state 9:
+
+	vardec : typedec IDENTIFIER . identlist SEMI 
+
+	COMMA	shift 17
+
+	identlist	goto 16
+
+	.	reduce by rule 9
+
+
+state 10:
+
+	vardeclis : vardec vardeclis .  (reduce by rule 4)
+
+
+
+	.	reduce by rule 4
+
+
+state 11:
+
+	procdecls : procdef . SEMI procdecls 
+
+	SEMI	shift 18
+
+
+	.	error
+
+
+state 12:
+
+	decseq : vardeclis procdecls .  (reduce by rule 2)
+
+
+
+	.	reduce by rule 2
+
+
+state 13:
+
+	procdef : PROCEDURE . IDENTIFIER block 
+
+	IDENTIFIER	shift 19
+
+
+	.	error
+
+
+state 14:
+
+	block : decseq cmdseq .  (reduce by rule 1)
+
+
+
+	.	reduce by rule 1
+
+
+state 15:
+
+	cmdseq : LBRACE . ncmd RBRACE 
+
+	IF	shift 27
+	WHILE	shift 26
+	PRINT	shift 25
+	READ	shift 24
+	CALL	shift 23
+	IDENTIFIER	shift 22
+
+	ncmd	goto 21
+	cmd	goto 20
+
+	.	reduce by rule 16
+
+
+state 16:
+
+	vardec : typedec IDENTIFIER identlist . SEMI 
+
+	SEMI	shift 28
+
+
+	.	error
+
+
+state 17:
+
+	identlist : COMMA . IDENTIFIER identlist 
+
+	IDENTIFIER	shift 29
+
+
+	.	error
+
+
+state 18:
+
+	procdecls : procdef SEMI . procdecls 
+
+	PROCEDURE	shift 13
+
+	procdecls	goto 30
+	procdef	goto 11
+
+	.	reduce by rule 11
+
+
+state 19:
+
+	procdef : PROCEDURE IDENTIFIER . block 
+
+	RATIONAL	shift 8
+	INTEGER	shift 7
+	BOOL	shift 6
+
+	block	goto 31
+	decseq	goto 4
+	vardeclis	goto 3
+	vardec	goto 2
+	typedec	goto 1
+
+	.	reduce by rule 3
+
+
+state 20:
+
+	ncmd : cmd . ncmd 
+
+	IF	shift 27
+	WHILE	shift 26
+	PRINT	shift 25
+	READ	shift 24
+	CALL	shift 23
+	IDENTIFIER	shift 22
+
+	ncmd	goto 32
+	cmd	goto 20
+
+	.	reduce by rule 16
+
+
+state 21:
+
+	cmdseq : LBRACE ncmd . RBRACE 
+
+	RBRACE	shift 33
+
+
+	.	error
+
+
+state 22:
+
+	cmd : IDENTIFIER . ASSIGN expr SEMI 
+
+	ASSIGN	shift 34
+
+
+	.	error
+
+
+state 23:
+
+	cmd : CALL . IDENTIFIER SEMI 
+
+	IDENTIFIER	shift 35
+
+
+	.	error
+
+
+state 24:
+
+	cmd : READ . LPAREN IDENTIFIER RPAREN SEMI 
+
+	LPAREN	shift 36
+
+
+	.	error
+
+
+state 25:
+
+	cmd : PRINT . LPAREN expr RPAREN SEMI 
+
+	LPAREN	shift 37
+
+
+	.	error
+
+
+state 26:
+
+	cmd : WHILE . expr DO cmdseq OD SEMI 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 38
+
+	.	error
+
+
+state 27:
+
+	cmd : IF . expr THEN cmdseq ELSE cmdseq FI SEMI 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 56
+
+	.	error
+
+
+state 28:
+
+	vardec : typedec IDENTIFIER identlist SEMI .  (reduce by rule 5)
+
+
+
+	.	reduce by rule 5
+
+
+state 29:
+
+	identlist : COMMA IDENTIFIER . identlist 
+
+	COMMA	shift 17
+
+	identlist	goto 57
+
+	.	reduce by rule 9
+
+
+state 30:
+
+	procdecls : procdef SEMI procdecls .  (reduce by rule 12)
+
+
+
+	.	reduce by rule 12
+
+
+state 31:
+
+	procdef : PROCEDURE IDENTIFIER block .  (reduce by rule 13)
+
+
+
+	.	reduce by rule 13
+
+
+state 32:
+
+	ncmd : cmd ncmd .  (reduce by rule 17)
+
+
+
+	.	reduce by rule 17
+
+
+state 33:
+
+	cmdseq : LBRACE ncmd RBRACE .  (reduce by rule 15)
+
+
+
+	.	reduce by rule 15
+
+
+state 34:
+
+	cmd : IDENTIFIER ASSIGN . expr SEMI 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 58
+
+	.	error
+
+
+state 35:
+
+	cmd : CALL IDENTIFIER . SEMI 
+
+	SEMI	shift 59
+
+
+	.	error
+
+
+state 36:
+
+	cmd : READ LPAREN . IDENTIFIER RPAREN SEMI 
+
+	IDENTIFIER	shift 60
+
+
+	.	error
+
+
+state 37:
+
+	cmd : PRINT LPAREN . expr RPAREN SEMI 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 61
+
+	.	error
+
+error:  state 38: shift/reduce conflict (shift DO, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 38: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+
+state 38:
+
+	cmd : WHILE expr . DO cmdseq OD SEMI 
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	RATPLUS	shift 79
+	RATTIMES	shift 78
+	RATSUB	shift 77
+	RATDIV	shift 76
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	ANDALSO	shift 64
+	ORELSE	shift 63
+	DO	shift 62
+
+
+	.	error
+
+
+state 39:
+
+	expr : INVERSE . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 80
+
+	.	error
+
+
+state 40:
+
+	expr : RAT . LPAREN expr RPAREN 
+
+	LPAREN	shift 81
+
+
+	.	error
+
+
+state 41:
+
+	expr : FALSE .  (reduce by rule 56)
+
+
+
+	.	reduce by rule 56
+
+
+state 42:
+
+	expr : TRUE .  (reduce by rule 55)
+
+
+
+	.	reduce by rule 55
+
+
+state 43:
+
+	expr : IDENTIFIER .  (reduce by rule 32)
+
+
+
+	.	reduce by rule 32
+
+
+state 44:
+
+	expr : TODEC . LPAREN expr RPAREN 
+
+	LPAREN	shift 82
+
+
+	.	error
+
+
+state 45:
+
+	expr : FROMDEC . LPAREN expr RPAREN 
+
+	LPAREN	shift 83
+
+
+	.	error
+
+
+state 46:
+
+	expr : SHOWDEC . LPAREN expr RPAREN 
+
+	LPAREN	shift 84
+
+
+	.	error
+
+
+state 47:
+
+	expr : SHOWRAT . LPAREN expr RPAREN 
+
+	LPAREN	shift 85
+
+
+	.	error
+
+
+state 48:
+
+	expr : MAKERAT . LPAREN expr COMMA expr RPAREN 
+
+	LPAREN	shift 86
+
+
+	.	error
+
+
+state 49:
+
+	expr : INTNEGATE . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 87
+
+	.	error
+
+
+state 50:
+
+	expr : NEGATE . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 88
+
+	.	error
+
+
+state 51:
+
+	expr : NOT . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 89
+
+	.	error
+
+
+state 52:
+
+	expr : LPAREN . expr RPAREN 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 90
+
+	.	error
+
+
+state 53:
+
+	expr : INTPLUS . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 91
+
+	.	error
+
+
+state 54:
+
+	expr : DECIMAL .  (reduce by rule 31)
+
+
+
+	.	reduce by rule 31
+
+
+state 55:
+
+	expr : NUM .  (reduce by rule 45)
+
+
+
+	.	reduce by rule 45
+
+error:  state 56: shift/reduce conflict (shift THEN, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 56: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+
+state 56:
+
+	cmd : IF expr . THEN cmdseq ELSE cmdseq FI SEMI 
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	RATPLUS	shift 79
+	RATTIMES	shift 78
+	RATSUB	shift 77
+	RATDIV	shift 76
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	ANDALSO	shift 64
+	ORELSE	shift 63
+	THEN	shift 92
+
+
+	.	error
+
+
+state 57:
+
+	identlist : COMMA IDENTIFIER identlist .  (reduce by rule 10)
+
+
+
+	.	reduce by rule 10
+
+error:  state 58: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+error:  state 58: shift/reduce conflict (shift SEMI, reduce by rule 58)
+
+state 58:
+
+	cmd : IDENTIFIER ASSIGN expr . SEMI 
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	shift 93
+	RATPLUS	shift 79
+	RATTIMES	shift 78
+	RATSUB	shift 77
+	RATDIV	shift 76
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	ANDALSO	shift 64
+	ORELSE	shift 63
+
+
+	.	error
+
+
+state 59:
+
+	cmd : CALL IDENTIFIER SEMI .  (reduce by rule 19)
+
+
+
+	.	reduce by rule 19
+
+
+state 60:
+
+	cmd : READ LPAREN IDENTIFIER . RPAREN SEMI 
+
+	RPAREN	shift 94
+
+
+	.	error
+
+error:  state 61: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift RPAREN, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 61: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+
+state 61:
+
+	cmd : PRINT LPAREN expr . RPAREN SEMI 
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	RATPLUS	shift 79
+	RATTIMES	shift 78
+	RATSUB	shift 77
+	RATDIV	shift 76
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	RPAREN	shift 95
+	ANDALSO	shift 64
+	ORELSE	shift 63
+
+
+	.	error
+
+
+state 62:
+
+	cmd : WHILE expr DO . cmdseq OD SEMI 
+
+	LBRACE	shift 15
+
+	cmdseq	goto 96
+
+	.	reduce by rule 14
+
+
+state 63:
+
+	expr : expr ORELSE . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 97
+
+	.	error
+
+
+state 64:
+
+	expr : expr ANDALSO . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 98
+
+	.	error
+
+
+state 65:
+
+	expr : expr GREATEREQ . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 99
+
+	.	error
+
+
+state 66:
+
+	expr : expr LESSEQ . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 100
+
+	.	error
+
+
+state 67:
+
+	expr : expr GREATER . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 101
+
+	.	error
+
+
+state 68:
+
+	expr : expr LESS . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 102
+
+	.	error
+
+
+state 69:
+
+	expr : expr NOTEQUAL . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 103
+
+	.	error
+
+
+state 70:
+
+	expr : expr EQUAL . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 104
+
+	.	error
+
+
+state 71:
+
+	expr : expr INTMOD . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 105
+
+	.	error
+
+
+state 72:
+
+	expr : expr INTDIV . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 106
+
+	.	error
+
+
+state 73:
+
+	expr : expr INTSUB . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 107
+
+	.	error
+
+
+state 74:
+
+	expr : expr INTTIMES . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 108
+
+	.	error
+
+
+state 75:
+
+	expr : expr INTPLUS . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 109
+
+	.	error
+
+
+state 76:
+
+	expr : expr RATDIV . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 110
+
+	.	error
+
+
+state 77:
+
+	expr : expr RATSUB . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 111
+
+	.	error
+
+
+state 78:
+
+	expr : expr RATTIMES . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 112
+
+	.	error
+
+
+state 79:
+
+	expr : expr RATPLUS . expr 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 113
+
+	.	error
+
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on COMMA
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on DO
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on THEN
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on ORELSE
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on ANDALSO
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on RPAREN
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on GREATEREQ
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on LESSEQ
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on GREATER
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on LESS
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on NOTEQUAL
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on EQUAL
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on INTMOD
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on INTDIV
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on INTSUB
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on INTTIMES
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on INTPLUS
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on RATDIV
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on RATSUB
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on RATTIMES
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on RATPLUS
+error:  state 80: reduce/reduce conflict between rule 58 and rule 28 on SEMI
+
+state 80:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : INVERSE expr .  (reduce by rule 28)
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 28
+	RATPLUS	reduce by rule 28
+	RATTIMES	reduce by rule 28
+	RATSUB	reduce by rule 28
+	RATDIV	reduce by rule 28
+	INTPLUS	reduce by rule 28
+	INTTIMES	reduce by rule 28
+	INTSUB	reduce by rule 28
+	INTDIV	reduce by rule 28
+	INTMOD	reduce by rule 28
+	EQUAL	reduce by rule 28
+	NOTEQUAL	reduce by rule 28
+	LESS	reduce by rule 28
+	GREATER	reduce by rule 28
+	LESSEQ	reduce by rule 28
+	GREATEREQ	reduce by rule 28
+	RPAREN	reduce by rule 28
+	ANDALSO	reduce by rule 28
+	ORELSE	reduce by rule 28
+	THEN	reduce by rule 28
+	DO	reduce by rule 28
+	COMMA	reduce by rule 28
+
+
+	.	error
+
+
+state 81:
+
+	expr : RAT LPAREN . expr RPAREN 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 114
+
+	.	error
+
+
+state 82:
+
+	expr : TODEC LPAREN . expr RPAREN 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 115
+
+	.	error
+
+
+state 83:
+
+	expr : FROMDEC LPAREN . expr RPAREN 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 116
+
+	.	error
+
+
+state 84:
+
+	expr : SHOWDEC LPAREN . expr RPAREN 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 117
+
+	.	error
+
+
+state 85:
+
+	expr : SHOWRAT LPAREN . expr RPAREN 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 118
+
+	.	error
+
+
+state 86:
+
+	expr : MAKERAT LPAREN . expr COMMA expr RPAREN 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 119
+
+	.	error
+
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on COMMA
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on DO
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on THEN
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on ORELSE
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on ANDALSO
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on RPAREN
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on GREATEREQ
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on LESSEQ
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on GREATER
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on LESS
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on NOTEQUAL
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on EQUAL
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on INTMOD
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on INTDIV
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on INTSUB
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on INTTIMES
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on INTPLUS
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on RATDIV
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on RATSUB
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on RATTIMES
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on RATPLUS
+error:  state 87: reduce/reduce conflict between rule 58 and rule 30 on SEMI
+error:  state 87: shift/reduce conflict (shift ORELSE, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift ANDALSO, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift GREATEREQ, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift LESSEQ, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift GREATER, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift LESS, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift NOTEQUAL, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift EQUAL, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift INTMOD, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift INTDIV, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift INTSUB, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift INTTIMES, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift INTPLUS, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift RATDIV, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift RATSUB, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift RATTIMES, reduce by rule 30)
+error:  state 87: shift/reduce conflict (shift RATPLUS, reduce by rule 30)
+
+state 87:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : INTNEGATE expr .  (reduce by rule 30)
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 30
+	RATPLUS	shift 79
+	RATTIMES	shift 78
+	RATSUB	shift 77
+	RATDIV	shift 76
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	RPAREN	reduce by rule 30
+	ANDALSO	shift 64
+	ORELSE	shift 63
+	THEN	reduce by rule 30
+	DO	reduce by rule 30
+	COMMA	reduce by rule 30
+
+
+	.	error
+
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on COMMA
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on DO
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on THEN
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on ORELSE
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on ANDALSO
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on RPAREN
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on GREATEREQ
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on LESSEQ
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on GREATER
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on LESS
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on NOTEQUAL
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on EQUAL
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on INTMOD
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on INTDIV
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on INTSUB
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on INTTIMES
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on INTPLUS
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on RATDIV
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on RATSUB
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on RATTIMES
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on RATPLUS
+error:  state 88: reduce/reduce conflict between rule 58 and rule 29 on SEMI
+
+state 88:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : NEGATE expr .  (reduce by rule 29)
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 29
+	RATPLUS	reduce by rule 29
+	RATTIMES	reduce by rule 29
+	RATSUB	reduce by rule 29
+	RATDIV	reduce by rule 29
+	INTPLUS	reduce by rule 29
+	INTTIMES	reduce by rule 29
+	INTSUB	reduce by rule 29
+	INTDIV	reduce by rule 29
+	INTMOD	reduce by rule 29
+	EQUAL	reduce by rule 29
+	NOTEQUAL	reduce by rule 29
+	LESS	reduce by rule 29
+	GREATER	reduce by rule 29
+	LESSEQ	reduce by rule 29
+	GREATEREQ	reduce by rule 29
+	RPAREN	reduce by rule 29
+	ANDALSO	reduce by rule 29
+	ORELSE	reduce by rule 29
+	THEN	reduce by rule 29
+	DO	reduce by rule 29
+	COMMA	reduce by rule 29
+
+
+	.	error
+
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on COMMA
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on DO
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on THEN
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on ORELSE
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on ANDALSO
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on RPAREN
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on GREATEREQ
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on LESSEQ
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on GREATER
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on LESS
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on NOTEQUAL
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on EQUAL
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on INTMOD
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on INTDIV
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on INTSUB
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on INTTIMES
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on INTPLUS
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on RATDIV
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on RATSUB
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on RATTIMES
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on RATPLUS
+error:  state 89: reduce/reduce conflict between rule 58 and rule 48 on SEMI
+
+state 89:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : NOT expr .  (reduce by rule 48)
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 48
+	RATPLUS	reduce by rule 48
+	RATTIMES	reduce by rule 48
+	RATSUB	reduce by rule 48
+	RATDIV	reduce by rule 48
+	INTPLUS	reduce by rule 48
+	INTTIMES	reduce by rule 48
+	INTSUB	reduce by rule 48
+	INTDIV	reduce by rule 48
+	INTMOD	reduce by rule 48
+	EQUAL	reduce by rule 48
+	NOTEQUAL	reduce by rule 48
+	LESS	reduce by rule 48
+	GREATER	reduce by rule 48
+	LESSEQ	reduce by rule 48
+	GREATEREQ	reduce by rule 48
+	RPAREN	reduce by rule 48
+	ANDALSO	reduce by rule 48
+	ORELSE	reduce by rule 48
+	THEN	reduce by rule 48
+	DO	reduce by rule 48
+	COMMA	reduce by rule 48
+
+
+	.	error
+
+error:  state 90: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift RPAREN, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 90: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+
+state 90:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : LPAREN expr . RPAREN 
+	expr : expr .  (reduce by rule 58)
+
+	RATPLUS	shift 79
+	RATTIMES	shift 78
+	RATSUB	shift 77
+	RATDIV	shift 76
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	RPAREN	shift 120
+	ANDALSO	shift 64
+	ORELSE	shift 63
+
+
+	.	error
+
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on COMMA
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on DO
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on THEN
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on ORELSE
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on ANDALSO
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on RPAREN
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on GREATEREQ
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on LESSEQ
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on GREATER
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on LESS
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on NOTEQUAL
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on EQUAL
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on INTMOD
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on INTDIV
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on INTSUB
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on INTTIMES
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on INTPLUS
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on RATDIV
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on RATSUB
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on RATTIMES
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on RATPLUS
+error:  state 91: reduce/reduce conflict between rule 58 and rule 44 on SEMI
+
+state 91:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : INTPLUS expr .  (reduce by rule 44)
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 44
+	RATPLUS	reduce by rule 44
+	RATTIMES	reduce by rule 44
+	RATSUB	reduce by rule 44
+	RATDIV	reduce by rule 44
+	INTPLUS	reduce by rule 44
+	INTTIMES	shift 74
+	INTSUB	reduce by rule 44
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	reduce by rule 44
+	NOTEQUAL	reduce by rule 44
+	LESS	reduce by rule 44
+	GREATER	reduce by rule 44
+	LESSEQ	reduce by rule 44
+	GREATEREQ	reduce by rule 44
+	RPAREN	reduce by rule 44
+	ANDALSO	reduce by rule 44
+	ORELSE	reduce by rule 44
+	THEN	reduce by rule 44
+	DO	reduce by rule 44
+	COMMA	reduce by rule 44
+
+
+	.	error
+
+
+state 92:
+
+	cmd : IF expr THEN . cmdseq ELSE cmdseq FI SEMI 
+
+	LBRACE	shift 15
+
+	cmdseq	goto 121
+
+	.	reduce by rule 14
+
+
+state 93:
+
+	cmd : IDENTIFIER ASSIGN expr SEMI .  (reduce by rule 18)
+
+
+
+	.	reduce by rule 18
+
+
+state 94:
+
+	cmd : READ LPAREN IDENTIFIER RPAREN . SEMI 
+
+	SEMI	shift 122
+
+
+	.	error
+
+
+state 95:
+
+	cmd : PRINT LPAREN expr RPAREN . SEMI 
+
+	SEMI	shift 123
+
+
+	.	error
+
+
+state 96:
+
+	cmd : WHILE expr DO cmdseq . OD SEMI 
+
+	OD	shift 124
+
+
+	.	error
+
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on COMMA
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on DO
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on THEN
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on ORELSE
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on ANDALSO
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on RPAREN
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on GREATEREQ
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on LESSEQ
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on GREATER
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on LESS
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on NOTEQUAL
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on EQUAL
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on INTMOD
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on INTDIV
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on INTSUB
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on INTTIMES
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on INTPLUS
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on RATDIV
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on RATSUB
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on RATTIMES
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on RATPLUS
+error:  state 97: reduce/reduce conflict between rule 58 and rule 47 on SEMI
+
+state 97:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr ORELSE expr .  (reduce by rule 47)
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 47
+	RATPLUS	reduce by rule 47
+	RATTIMES	reduce by rule 47
+	RATSUB	reduce by rule 47
+	RATDIV	reduce by rule 47
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	RPAREN	reduce by rule 47
+	ANDALSO	reduce by rule 47
+	ORELSE	reduce by rule 47
+	THEN	reduce by rule 47
+	DO	reduce by rule 47
+	COMMA	reduce by rule 47
+
+
+	.	error
+
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on COMMA
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on DO
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on THEN
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on ORELSE
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on ANDALSO
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on RPAREN
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on GREATEREQ
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on LESSEQ
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on GREATER
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on LESS
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on NOTEQUAL
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on EQUAL
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on INTMOD
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on INTDIV
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on INTSUB
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on INTTIMES
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on INTPLUS
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on RATDIV
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on RATSUB
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on RATTIMES
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on RATPLUS
+error:  state 98: reduce/reduce conflict between rule 58 and rule 46 on SEMI
+
+state 98:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr ANDALSO expr .  (reduce by rule 46)
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 46
+	RATPLUS	reduce by rule 46
+	RATTIMES	reduce by rule 46
+	RATSUB	reduce by rule 46
+	RATDIV	reduce by rule 46
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	RPAREN	reduce by rule 46
+	ANDALSO	reduce by rule 46
+	ORELSE	reduce by rule 46
+	THEN	reduce by rule 46
+	DO	reduce by rule 46
+	COMMA	reduce by rule 46
+
+
+	.	error
+
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on COMMA
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on DO
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on THEN
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on ORELSE
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on ANDALSO
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on RPAREN
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on GREATEREQ
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on LESSEQ
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on GREATER
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on LESS
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on NOTEQUAL
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on EQUAL
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on INTMOD
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on INTDIV
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on INTSUB
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on INTTIMES
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on INTPLUS
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on RATDIV
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on RATSUB
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on RATTIMES
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on RATPLUS
+error:  state 99: reduce/reduce conflict between rule 58 and rule 54 on SEMI
+
+state 99:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr GREATEREQ expr .  (reduce by rule 54)
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 54
+	RATPLUS	reduce by rule 54
+	RATTIMES	reduce by rule 54
+	RATSUB	reduce by rule 54
+	RATDIV	reduce by rule 54
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	reduce by rule 54
+	NOTEQUAL	reduce by rule 54
+	LESS	reduce by rule 54
+	GREATER	reduce by rule 54
+	LESSEQ	reduce by rule 54
+	GREATEREQ	reduce by rule 54
+	RPAREN	reduce by rule 54
+	ANDALSO	reduce by rule 54
+	ORELSE	reduce by rule 54
+	THEN	reduce by rule 54
+	DO	reduce by rule 54
+	COMMA	reduce by rule 54
+
+
+	.	error
+
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on COMMA
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on DO
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on THEN
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on ORELSE
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on ANDALSO
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on RPAREN
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on GREATEREQ
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on LESSEQ
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on GREATER
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on LESS
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on NOTEQUAL
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on EQUAL
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on INTMOD
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on INTDIV
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on INTSUB
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on INTTIMES
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on INTPLUS
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on RATDIV
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on RATSUB
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on RATTIMES
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on RATPLUS
+error:  state 100: reduce/reduce conflict between rule 58 and rule 52 on SEMI
+
+state 100:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr LESSEQ expr .  (reduce by rule 52)
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 52
+	RATPLUS	reduce by rule 52
+	RATTIMES	reduce by rule 52
+	RATSUB	reduce by rule 52
+	RATDIV	reduce by rule 52
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	reduce by rule 52
+	NOTEQUAL	reduce by rule 52
+	LESS	reduce by rule 52
+	GREATER	reduce by rule 52
+	LESSEQ	reduce by rule 52
+	GREATEREQ	reduce by rule 52
+	RPAREN	reduce by rule 52
+	ANDALSO	reduce by rule 52
+	ORELSE	reduce by rule 52
+	THEN	reduce by rule 52
+	DO	reduce by rule 52
+	COMMA	reduce by rule 52
+
+
+	.	error
+
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on COMMA
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on DO
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on THEN
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on ORELSE
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on ANDALSO
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on RPAREN
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on GREATEREQ
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on LESSEQ
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on GREATER
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on LESS
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on NOTEQUAL
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on EQUAL
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on INTMOD
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on INTDIV
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on INTSUB
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on INTTIMES
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on INTPLUS
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on RATDIV
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on RATSUB
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on RATTIMES
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on RATPLUS
+error:  state 101: reduce/reduce conflict between rule 58 and rule 53 on SEMI
+
+state 101:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr GREATER expr .  (reduce by rule 53)
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 53
+	RATPLUS	reduce by rule 53
+	RATTIMES	reduce by rule 53
+	RATSUB	reduce by rule 53
+	RATDIV	reduce by rule 53
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	reduce by rule 53
+	NOTEQUAL	reduce by rule 53
+	LESS	reduce by rule 53
+	GREATER	reduce by rule 53
+	LESSEQ	reduce by rule 53
+	GREATEREQ	reduce by rule 53
+	RPAREN	reduce by rule 53
+	ANDALSO	reduce by rule 53
+	ORELSE	reduce by rule 53
+	THEN	reduce by rule 53
+	DO	reduce by rule 53
+	COMMA	reduce by rule 53
+
+
+	.	error
+
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on COMMA
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on DO
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on THEN
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on ORELSE
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on ANDALSO
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on RPAREN
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on GREATEREQ
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on LESSEQ
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on GREATER
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on LESS
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on NOTEQUAL
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on EQUAL
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on INTMOD
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on INTDIV
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on INTSUB
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on INTTIMES
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on INTPLUS
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on RATDIV
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on RATSUB
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on RATTIMES
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on RATPLUS
+error:  state 102: reduce/reduce conflict between rule 58 and rule 51 on SEMI
+
+state 102:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr LESS expr .  (reduce by rule 51)
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 51
+	RATPLUS	reduce by rule 51
+	RATTIMES	reduce by rule 51
+	RATSUB	reduce by rule 51
+	RATDIV	reduce by rule 51
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	reduce by rule 51
+	NOTEQUAL	reduce by rule 51
+	LESS	reduce by rule 51
+	GREATER	reduce by rule 51
+	LESSEQ	reduce by rule 51
+	GREATEREQ	reduce by rule 51
+	RPAREN	reduce by rule 51
+	ANDALSO	reduce by rule 51
+	ORELSE	reduce by rule 51
+	THEN	reduce by rule 51
+	DO	reduce by rule 51
+	COMMA	reduce by rule 51
+
+
+	.	error
+
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on COMMA
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on DO
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on THEN
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on ORELSE
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on ANDALSO
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on RPAREN
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on GREATEREQ
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on LESSEQ
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on GREATER
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on LESS
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on NOTEQUAL
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on EQUAL
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on INTMOD
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on INTDIV
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on INTSUB
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on INTTIMES
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on INTPLUS
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on RATDIV
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on RATSUB
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on RATTIMES
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on RATPLUS
+error:  state 103: reduce/reduce conflict between rule 58 and rule 50 on SEMI
+
+state 103:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr NOTEQUAL expr .  (reduce by rule 50)
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 50
+	RATPLUS	reduce by rule 50
+	RATTIMES	reduce by rule 50
+	RATSUB	reduce by rule 50
+	RATDIV	reduce by rule 50
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	reduce by rule 50
+	NOTEQUAL	reduce by rule 50
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	RPAREN	reduce by rule 50
+	ANDALSO	reduce by rule 50
+	ORELSE	reduce by rule 50
+	THEN	reduce by rule 50
+	DO	reduce by rule 50
+	COMMA	reduce by rule 50
+
+
+	.	error
+
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on COMMA
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on DO
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on THEN
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on ORELSE
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on ANDALSO
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on RPAREN
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on GREATEREQ
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on LESSEQ
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on GREATER
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on LESS
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on NOTEQUAL
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on EQUAL
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on INTMOD
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on INTDIV
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on INTSUB
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on INTTIMES
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on INTPLUS
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on RATDIV
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on RATSUB
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on RATTIMES
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on RATPLUS
+error:  state 104: reduce/reduce conflict between rule 58 and rule 49 on SEMI
+
+state 104:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr EQUAL expr .  (reduce by rule 49)
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 49
+	RATPLUS	reduce by rule 49
+	RATTIMES	reduce by rule 49
+	RATSUB	reduce by rule 49
+	RATDIV	reduce by rule 49
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	reduce by rule 49
+	NOTEQUAL	reduce by rule 49
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	RPAREN	reduce by rule 49
+	ANDALSO	reduce by rule 49
+	ORELSE	reduce by rule 49
+	THEN	reduce by rule 49
+	DO	reduce by rule 49
+	COMMA	reduce by rule 49
+
+
+	.	error
+
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on COMMA
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on DO
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on THEN
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on ORELSE
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on ANDALSO
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on RPAREN
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on GREATEREQ
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on LESSEQ
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on GREATER
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on LESS
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on NOTEQUAL
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on EQUAL
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on INTMOD
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on INTDIV
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on INTSUB
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on INTTIMES
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on INTPLUS
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on RATDIV
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on RATSUB
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on RATTIMES
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on RATPLUS
+error:  state 105: reduce/reduce conflict between rule 58 and rule 43 on SEMI
+
+state 105:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr INTMOD expr .  (reduce by rule 43)
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 43
+	RATPLUS	reduce by rule 43
+	RATTIMES	reduce by rule 43
+	RATSUB	reduce by rule 43
+	RATDIV	reduce by rule 43
+	INTPLUS	reduce by rule 43
+	INTTIMES	reduce by rule 43
+	INTSUB	reduce by rule 43
+	INTDIV	reduce by rule 43
+	INTMOD	reduce by rule 43
+	EQUAL	reduce by rule 43
+	NOTEQUAL	reduce by rule 43
+	LESS	reduce by rule 43
+	GREATER	reduce by rule 43
+	LESSEQ	reduce by rule 43
+	GREATEREQ	reduce by rule 43
+	RPAREN	reduce by rule 43
+	ANDALSO	reduce by rule 43
+	ORELSE	reduce by rule 43
+	THEN	reduce by rule 43
+	DO	reduce by rule 43
+	COMMA	reduce by rule 43
+
+
+	.	error
+
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on COMMA
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on DO
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on THEN
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on ORELSE
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on ANDALSO
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on RPAREN
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on GREATEREQ
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on LESSEQ
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on GREATER
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on LESS
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on NOTEQUAL
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on EQUAL
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on INTMOD
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on INTDIV
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on INTSUB
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on INTTIMES
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on INTPLUS
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on RATDIV
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on RATSUB
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on RATTIMES
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on RATPLUS
+error:  state 106: reduce/reduce conflict between rule 58 and rule 42 on SEMI
+
+state 106:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr INTDIV expr .  (reduce by rule 42)
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 42
+	RATPLUS	reduce by rule 42
+	RATTIMES	reduce by rule 42
+	RATSUB	reduce by rule 42
+	RATDIV	reduce by rule 42
+	INTPLUS	reduce by rule 42
+	INTTIMES	reduce by rule 42
+	INTSUB	reduce by rule 42
+	INTDIV	reduce by rule 42
+	INTMOD	reduce by rule 42
+	EQUAL	reduce by rule 42
+	NOTEQUAL	reduce by rule 42
+	LESS	reduce by rule 42
+	GREATER	reduce by rule 42
+	LESSEQ	reduce by rule 42
+	GREATEREQ	reduce by rule 42
+	RPAREN	reduce by rule 42
+	ANDALSO	reduce by rule 42
+	ORELSE	reduce by rule 42
+	THEN	reduce by rule 42
+	DO	reduce by rule 42
+	COMMA	reduce by rule 42
+
+
+	.	error
+
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on COMMA
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on DO
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on THEN
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on ORELSE
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on ANDALSO
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on RPAREN
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on GREATEREQ
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on LESSEQ
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on GREATER
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on LESS
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on NOTEQUAL
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on EQUAL
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on INTMOD
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on INTDIV
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on INTSUB
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on INTTIMES
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on INTPLUS
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on RATDIV
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on RATSUB
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on RATTIMES
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on RATPLUS
+error:  state 107: reduce/reduce conflict between rule 58 and rule 40 on SEMI
+
+state 107:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr INTSUB expr .  (reduce by rule 40)
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 40
+	RATPLUS	reduce by rule 40
+	RATTIMES	reduce by rule 40
+	RATSUB	reduce by rule 40
+	RATDIV	reduce by rule 40
+	INTPLUS	reduce by rule 40
+	INTTIMES	shift 74
+	INTSUB	reduce by rule 40
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	reduce by rule 40
+	NOTEQUAL	reduce by rule 40
+	LESS	reduce by rule 40
+	GREATER	reduce by rule 40
+	LESSEQ	reduce by rule 40
+	GREATEREQ	reduce by rule 40
+	RPAREN	reduce by rule 40
+	ANDALSO	reduce by rule 40
+	ORELSE	reduce by rule 40
+	THEN	reduce by rule 40
+	DO	reduce by rule 40
+	COMMA	reduce by rule 40
+
+
+	.	error
+
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on COMMA
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on DO
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on THEN
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on ORELSE
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on ANDALSO
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on RPAREN
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on GREATEREQ
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on LESSEQ
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on GREATER
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on LESS
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on NOTEQUAL
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on EQUAL
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on INTMOD
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on INTDIV
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on INTSUB
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on INTTIMES
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on INTPLUS
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on RATDIV
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on RATSUB
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on RATTIMES
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on RATPLUS
+error:  state 108: reduce/reduce conflict between rule 58 and rule 41 on SEMI
+
+state 108:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr INTTIMES expr .  (reduce by rule 41)
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 41
+	RATPLUS	reduce by rule 41
+	RATTIMES	reduce by rule 41
+	RATSUB	reduce by rule 41
+	RATDIV	reduce by rule 41
+	INTPLUS	reduce by rule 41
+	INTTIMES	reduce by rule 41
+	INTSUB	reduce by rule 41
+	INTDIV	reduce by rule 41
+	INTMOD	reduce by rule 41
+	EQUAL	reduce by rule 41
+	NOTEQUAL	reduce by rule 41
+	LESS	reduce by rule 41
+	GREATER	reduce by rule 41
+	LESSEQ	reduce by rule 41
+	GREATEREQ	reduce by rule 41
+	RPAREN	reduce by rule 41
+	ANDALSO	reduce by rule 41
+	ORELSE	reduce by rule 41
+	THEN	reduce by rule 41
+	DO	reduce by rule 41
+	COMMA	reduce by rule 41
+
+
+	.	error
+
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on COMMA
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on DO
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on THEN
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on ORELSE
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on ANDALSO
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on RPAREN
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on GREATEREQ
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on LESSEQ
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on GREATER
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on LESS
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on NOTEQUAL
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on EQUAL
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on INTMOD
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on INTDIV
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on INTSUB
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on INTTIMES
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on INTPLUS
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on RATDIV
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on RATSUB
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on RATTIMES
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on RATPLUS
+error:  state 109: reduce/reduce conflict between rule 58 and rule 39 on SEMI
+
+state 109:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr INTPLUS expr .  (reduce by rule 39)
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 39
+	RATPLUS	reduce by rule 39
+	RATTIMES	reduce by rule 39
+	RATSUB	reduce by rule 39
+	RATDIV	reduce by rule 39
+	INTPLUS	reduce by rule 39
+	INTTIMES	shift 74
+	INTSUB	reduce by rule 39
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	reduce by rule 39
+	NOTEQUAL	reduce by rule 39
+	LESS	reduce by rule 39
+	GREATER	reduce by rule 39
+	LESSEQ	reduce by rule 39
+	GREATEREQ	reduce by rule 39
+	RPAREN	reduce by rule 39
+	ANDALSO	reduce by rule 39
+	ORELSE	reduce by rule 39
+	THEN	reduce by rule 39
+	DO	reduce by rule 39
+	COMMA	reduce by rule 39
+
+
+	.	error
+
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on COMMA
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on DO
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on THEN
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on ORELSE
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on ANDALSO
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on RPAREN
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on GREATEREQ
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on LESSEQ
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on GREATER
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on LESS
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on NOTEQUAL
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on EQUAL
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on INTMOD
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on INTDIV
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on INTSUB
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on INTTIMES
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on INTPLUS
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on RATDIV
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on RATSUB
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on RATTIMES
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on RATPLUS
+error:  state 110: reduce/reduce conflict between rule 58 and rule 27 on SEMI
+
+state 110:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr RATDIV expr .  (reduce by rule 27)
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 27
+	RATPLUS	reduce by rule 27
+	RATTIMES	reduce by rule 27
+	RATSUB	reduce by rule 27
+	RATDIV	reduce by rule 27
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	RPAREN	reduce by rule 27
+	ANDALSO	shift 64
+	ORELSE	shift 63
+	THEN	reduce by rule 27
+	DO	reduce by rule 27
+	COMMA	reduce by rule 27
+
+
+	.	error
+
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on COMMA
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on DO
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on THEN
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on ORELSE
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on ANDALSO
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on RPAREN
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on GREATEREQ
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on LESSEQ
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on GREATER
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on LESS
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on NOTEQUAL
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on EQUAL
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on INTMOD
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on INTDIV
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on INTSUB
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on INTTIMES
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on INTPLUS
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on RATDIV
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on RATSUB
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on RATTIMES
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on RATPLUS
+error:  state 111: reduce/reduce conflict between rule 58 and rule 25 on SEMI
+
+state 111:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr RATSUB expr .  (reduce by rule 25)
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 25
+	RATPLUS	reduce by rule 25
+	RATTIMES	shift 78
+	RATSUB	reduce by rule 25
+	RATDIV	shift 76
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	RPAREN	reduce by rule 25
+	ANDALSO	shift 64
+	ORELSE	shift 63
+	THEN	reduce by rule 25
+	DO	reduce by rule 25
+	COMMA	reduce by rule 25
+
+
+	.	error
+
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on COMMA
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on DO
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on THEN
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on ORELSE
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on ANDALSO
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on RPAREN
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on GREATEREQ
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on LESSEQ
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on GREATER
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on LESS
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on NOTEQUAL
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on EQUAL
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on INTMOD
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on INTDIV
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on INTSUB
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on INTTIMES
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on INTPLUS
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on RATDIV
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on RATSUB
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on RATTIMES
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on RATPLUS
+error:  state 112: reduce/reduce conflict between rule 58 and rule 26 on SEMI
+
+state 112:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr RATTIMES expr .  (reduce by rule 26)
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 26
+	RATPLUS	reduce by rule 26
+	RATTIMES	reduce by rule 26
+	RATSUB	reduce by rule 26
+	RATDIV	reduce by rule 26
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	RPAREN	reduce by rule 26
+	ANDALSO	shift 64
+	ORELSE	shift 63
+	THEN	reduce by rule 26
+	DO	reduce by rule 26
+	COMMA	reduce by rule 26
+
+
+	.	error
+
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on COMMA
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on DO
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on THEN
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on ORELSE
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on ANDALSO
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on RPAREN
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on GREATEREQ
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on LESSEQ
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on GREATER
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on LESS
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on NOTEQUAL
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on EQUAL
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on INTMOD
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on INTDIV
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on INTSUB
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on INTTIMES
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on INTPLUS
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on RATDIV
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on RATSUB
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on RATTIMES
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on RATPLUS
+error:  state 113: reduce/reduce conflict between rule 58 and rule 24 on SEMI
+
+state 113:
+
+	expr : expr . RATPLUS expr 
+	expr : expr RATPLUS expr .  (reduce by rule 24)
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	SEMI	reduce by rule 24
+	RATPLUS	reduce by rule 24
+	RATTIMES	shift 78
+	RATSUB	reduce by rule 24
+	RATDIV	shift 76
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	RPAREN	reduce by rule 24
+	ANDALSO	shift 64
+	ORELSE	shift 63
+	THEN	reduce by rule 24
+	DO	reduce by rule 24
+	COMMA	reduce by rule 24
+
+
+	.	error
+
+error:  state 114: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift RPAREN, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 114: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+
+state 114:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : RAT LPAREN expr . RPAREN 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	RATPLUS	shift 79
+	RATTIMES	shift 78
+	RATSUB	shift 77
+	RATDIV	shift 76
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	RPAREN	shift 125
+	ANDALSO	shift 64
+	ORELSE	shift 63
+
+
+	.	error
+
+error:  state 115: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift RPAREN, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 115: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+
+state 115:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : TODEC LPAREN expr . RPAREN 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	RATPLUS	shift 79
+	RATTIMES	shift 78
+	RATSUB	shift 77
+	RATDIV	shift 76
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	RPAREN	shift 126
+	ANDALSO	shift 64
+	ORELSE	shift 63
+
+
+	.	error
+
+error:  state 116: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift RPAREN, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 116: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+
+state 116:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : FROMDEC LPAREN expr . RPAREN 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	RATPLUS	shift 79
+	RATTIMES	shift 78
+	RATSUB	shift 77
+	RATDIV	shift 76
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	RPAREN	shift 127
+	ANDALSO	shift 64
+	ORELSE	shift 63
+
+
+	.	error
+
+error:  state 117: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift RPAREN, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 117: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+
+state 117:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : SHOWDEC LPAREN expr . RPAREN 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	RATPLUS	shift 79
+	RATTIMES	shift 78
+	RATSUB	shift 77
+	RATDIV	shift 76
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	RPAREN	shift 128
+	ANDALSO	shift 64
+	ORELSE	shift 63
+
+
+	.	error
+
+error:  state 118: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift RPAREN, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 118: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+
+state 118:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : SHOWRAT LPAREN expr . RPAREN 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	RATPLUS	shift 79
+	RATTIMES	shift 78
+	RATSUB	shift 77
+	RATDIV	shift 76
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	RPAREN	shift 129
+	ANDALSO	shift 64
+	ORELSE	shift 63
+
+
+	.	error
+
+error:  state 119: shift/reduce conflict (shift COMMA, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 119: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+
+state 119:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : MAKERAT LPAREN expr . COMMA expr RPAREN 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	RATPLUS	shift 79
+	RATTIMES	shift 78
+	RATSUB	shift 77
+	RATDIV	shift 76
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	ANDALSO	shift 64
+	ORELSE	shift 63
+	COMMA	shift 130
+
+
+	.	error
+
+
+state 120:
+
+	expr : LPAREN expr RPAREN .  (reduce by rule 57)
+
+
+
+	.	reduce by rule 57
+
+
+state 121:
+
+	cmd : IF expr THEN cmdseq . ELSE cmdseq FI SEMI 
+
+	ELSE	shift 131
+
+
+	.	error
+
+
+state 122:
+
+	cmd : READ LPAREN IDENTIFIER RPAREN SEMI .  (reduce by rule 20)
+
+
+
+	.	reduce by rule 20
+
+
+state 123:
+
+	cmd : PRINT LPAREN expr RPAREN SEMI .  (reduce by rule 21)
+
+
+
+	.	reduce by rule 21
+
+
+state 124:
+
+	cmd : WHILE expr DO cmdseq OD . SEMI 
+
+	SEMI	shift 132
+
+
+	.	error
+
+
+state 125:
+
+	expr : RAT LPAREN expr RPAREN .  (reduce by rule 34)
+
+
+
+	.	reduce by rule 34
+
+
+state 126:
+
+	expr : TODEC LPAREN expr RPAREN .  (reduce by rule 38)
+
+
+
+	.	reduce by rule 38
+
+
+state 127:
+
+	expr : FROMDEC LPAREN expr RPAREN .  (reduce by rule 37)
+
+
+
+	.	reduce by rule 37
+
+
+state 128:
+
+	expr : SHOWDEC LPAREN expr RPAREN .  (reduce by rule 36)
+
+
+
+	.	reduce by rule 36
+
+
+state 129:
+
+	expr : SHOWRAT LPAREN expr RPAREN .  (reduce by rule 35)
+
+
+
+	.	reduce by rule 35
+
+
+state 130:
+
+	expr : MAKERAT LPAREN expr COMMA . expr RPAREN 
+
+	NUM	shift 55
+	DECIMAL	shift 54
+	INTPLUS	shift 53
+	LPAREN	shift 52
+	NOT	shift 51
+	NEGATE	shift 50
+	INTNEGATE	shift 49
+	MAKERAT	shift 48
+	SHOWRAT	shift 47
+	SHOWDEC	shift 46
+	FROMDEC	shift 45
+	TODEC	shift 44
+	IDENTIFIER	shift 43
+	TRUE	shift 42
+	FALSE	shift 41
+	RAT	shift 40
+	INVERSE	shift 39
+
+	expr	goto 133
+
+	.	error
+
+
+state 131:
+
+	cmd : IF expr THEN cmdseq ELSE . cmdseq FI SEMI 
+
+	LBRACE	shift 15
+
+	cmdseq	goto 134
+
+	.	reduce by rule 14
+
+
+state 132:
+
+	cmd : WHILE expr DO cmdseq OD SEMI .  (reduce by rule 23)
+
+
+
+	.	reduce by rule 23
+
+error:  state 133: shift/reduce conflict (shift ORELSE, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift ANDALSO, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift RPAREN, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift GREATEREQ, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift LESSEQ, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift GREATER, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift LESS, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift NOTEQUAL, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift EQUAL, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift INTMOD, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift INTDIV, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift INTSUB, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift INTTIMES, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift INTPLUS, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift RATDIV, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift RATSUB, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift RATTIMES, reduce by rule 58)
+error:  state 133: shift/reduce conflict (shift RATPLUS, reduce by rule 58)
+
+state 133:
+
+	expr : expr . RATPLUS expr 
+	expr : expr . RATSUB expr 
+	expr : expr . RATTIMES expr 
+	expr : expr . RATDIV expr 
+	expr : MAKERAT LPAREN expr COMMA expr . RPAREN 
+	expr : expr . INTPLUS expr 
+	expr : expr . INTSUB expr 
+	expr : expr . INTTIMES expr 
+	expr : expr . INTDIV expr 
+	expr : expr . INTMOD expr 
+	expr : expr . ANDALSO expr 
+	expr : expr . ORELSE expr 
+	expr : expr . EQUAL expr 
+	expr : expr . NOTEQUAL expr 
+	expr : expr . LESS expr 
+	expr : expr . LESSEQ expr 
+	expr : expr . GREATER expr 
+	expr : expr . GREATEREQ expr 
+	expr : expr .  (reduce by rule 58)
+
+	RATPLUS	shift 79
+	RATTIMES	shift 78
+	RATSUB	shift 77
+	RATDIV	shift 76
+	INTPLUS	shift 75
+	INTTIMES	shift 74
+	INTSUB	shift 73
+	INTDIV	shift 72
+	INTMOD	shift 71
+	EQUAL	shift 70
+	NOTEQUAL	shift 69
+	LESS	shift 68
+	GREATER	shift 67
+	LESSEQ	shift 66
+	GREATEREQ	shift 65
+	RPAREN	shift 135
+	ANDALSO	shift 64
+	ORELSE	shift 63
+
+
+	.	error
+
+
+state 134:
+
+	cmd : IF expr THEN cmdseq ELSE cmdseq . FI SEMI 
+
+	FI	shift 136
+
+
+	.	error
+
+
+state 135:
+
+	expr : MAKERAT LPAREN expr COMMA expr RPAREN .  (reduce by rule 33)
+
+
+
+	.	reduce by rule 33
+
+
+state 136:
+
+	cmd : IF expr THEN cmdseq ELSE cmdseq FI . SEMI 
+
+	SEMI	shift 137
+
+
+	.	error
+
+
+state 137:
+
+	cmd : IF expr THEN cmdseq ELSE cmdseq FI SEMI .  (reduce by rule 22)
+
+
+
+	.	reduce by rule 22
+
+
+state 138:
+
+
+	EOF	accept
+
+
+	.	error
+
+756 of 1473 action table entries left after compaction
+62 goto table entries
