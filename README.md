@@ -1,6 +1,6 @@
 # COL226-Assignments
 
-##Assignment 1: 
+##Assignment 1:
 This algorithm uses the long division method to calculate the square root of an integer in the form of a string. It first separates the input string into pairs of digits and stores them in a list, which is then reversed. Next, the algorithm uses a helper function called "nearest Sqrt" to find the nearest square value which is less than or equal to the first digit of the input string. This nearest square value is then used as the first digit of the square root.
 The algorithm then uses another helper function "step1" to update the input list by subtracting the square of the nearest square value from the first digit of the input string. This updated list is then passed to the next helper function "helper1" which uses a recursive approach to find the next digits of the square root.
 The function "helper1" takes the updated list and the nearest square value as inputs and starts a loop. In each iteration of the loop, it concatenates the first two digits of the input list, and uses a function "recurse" to find the next digit of the square root by dividing the concatenated digits by a value calculated from the nearest square value and the current digit of the square root. It then updates the input list by subtracting the product of the current digit of the square root and a value calculated from the nearest square value and the current digit of the square root. The current digit of the square root is then added to the final square root value.
