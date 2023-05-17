@@ -1,0 +1,27 @@
+group
+  (* CM allows you to selectively export defined modules (structures,
+     signatures and functors) by listing them here. It's useful for
+     libraries. *)
+
+  source (-)       (* export all defined modules *)
+
+  structure BigInt
+  structure Rational
+  signature BIGINT
+  signature RATIONAL
+  functor Rat
+is
+  (* Import the SML standard library, aka Basis.  *)
+  (* See: http://sml-family.org/Basis/ *)
+  $/basis.cm
+
+  (* Import the SML/NJ library *)
+  (* Provides extra data structures and algorithms. *)
+  (* See: https://www.smlnj.org/doc/smlnj-lib/Manual/toc.html *)
+  $/smlnj-lib.cm
+
+  (* List each source file you want to be considered for compilation. *)
+  src/main.sml
+  src/bigint.sig
+  src/rational.sig
+  src/rational.fun
