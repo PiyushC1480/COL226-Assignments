@@ -1,0 +1,23 @@
+------------------------------------
+PIYUSH CHAUHAN
+2021CS11010
+------------------------------------
+
+QUESTION 1:
+The base case of the condition says that an empty list is always a subsequence of any list.
+There are two parts to the recursive meaning of the predicate:
+The first sentence is true if the first element of the first argument is the same as the first element of the second argument. It then checks recursively if the rest of the first argument is a subsequence of the rest of the second argument.
+The second sentence is true if the first element of the first argument is not the same as the first element of the second argument. It then checks recursively if the first argument is a subsequence of the rest of the second argument.
+
+QUESTION 2:
+The predicates checks if there exists an element X which can be selected from the input list L three times using the select predicate.
+
+QUESTION 3:
+The split_list predicate is used to divide the input list into two non-empty sublists, and the construct_term predicate is used to build the left and right terms. Then, the construct_expression predicate is used to assess and compare the left and right terms. Using the add_or_subtract_terms predicate, the construct_term predicate makes a binary term by adding or taking away from two terms.
+If the list of arguments can't be used to make a correct solution, the arith predicate will do nothing and return false.
+
+QUESTION 4:
+I have written all the possible crossings and then call the backtrack funciton, which is a recursive function. It goes through al the predicate and chooses the correct one.
+Termination condition is when all the person are on right bank and all hace rowed at least once.
+I have added comments so that the program is more comprehensive.
+

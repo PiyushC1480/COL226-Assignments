@@ -1,0 +1,2 @@
+has_no_triplicates(L) :-
+    not((select(X, L, L1),select(X, L1, L2),select(X, L2, _))).

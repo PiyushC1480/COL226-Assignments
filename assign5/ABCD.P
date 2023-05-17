@@ -1,0 +1,194 @@
+state(state(alice(Side),bob(Side),carol(Side),davis(Side),canoe(Side))).
+
+inital_state(state(alice(left),bob(left),carol(left),davis(left),canoe(left))).
+final_state(state(alice(right),bob(right),carol(right),davis(right),canoe(right))).
+
+double(L) :-
+    select(X, L, L1),
+    select(X, L1, L2),
+    write(X),
+    write(" paddles twice").
+
+/*
+possible crossings are 
+A,B,C,D all from right to left
+A,C and A,D from left to right 
+B,C, and B,D from left to right
+C,D from left to right 
+*/
+/*----DEFINING ALL POSSIBLE MOVES-----*/
+%alice can move from right to left
+move(state(alice(A),bob(B),carol(C),davis(D),canoe(P)), state(alice(A1),bob(B),carol(C),davis(D),canoe(P1)),Path,PaddlersList,NewPaddlersList,AnswerList,NewAnswerList):-
+    ((
+        A=right,  %originally alice is on right side
+        A=P,  % position of canoe and alice is same
+        A1=left,  %alice reaches to left 
+        A1=P1,  % position of canoe and alice is same
+        not(member(state(alice(A1),bob(B),carol(C),davis(D),canoe(P1)),Path)),
+        append(PaddlersList,[alice],NewPaddlersList),
+        append(AnswerList,[(alice,none)],NewAnswerList)
+    )).
+%bob can move from right to left
+move(state(alice(A),bob(B),carol(C),davis(D),canoe(P)), state(alice(A),bob(B1),carol(C),davis(D),canoe(P1)),Path,PaddlersList,NewPaddlersList,AnswerList,NewAnswerList):-
+    ((
+        B=right,  %originally bob is on right side
+        B=P,  % position of canoe and bob is same
+        B1=left,  %finally bob is on left
+        B1=P1,  % position of canoe and bob is same
+        not(member(state(alice(A),bob(B1),carol(C),davis(D),canoe(P1)),Path)),
+        append(PaddlersList,[bob],NewPaddlersList),
+        append(AnswerList,[(bob,none)],NewAnswerList)
+    )).
+%carol can move from right to left
+move(state(alice(A),bob(B),carol(C),davis(D),canoe(P)), state(alice(A),bob(B),carol(C1),davis(D),canoe(P1)),Path,PaddlersList,NewPaddlersList,AnswerList,NewAnswerList):-
+    ((
+        C=right,  %originally carol is on right side
+        C=P,  % position of canoe and carol is same
+        C1=left,  %finally carol is on left
+        C1=P1,  % position of canoe and carol is same
+        not(member(state(alice(A),bob(B),carol(C1),davis(D),canoe(P1)),Path)),
+        append(PaddlersList,[carol],NewPaddlersList),
+        append(AnswerList,[(carol, none)],NewAnswerList)
+    )).
+%davis can move from right to left
+move(state(alice(A),bob(B),carol(C),davis(D),canoe(P)), state(alice(A),bob(B),carol(C),davis(D1),canoe(P1)),Path,PaddlersList,NewPaddlersList,AnswerList,NewAnswerList):-
+    ((
+        D=right,  %originally davis is on right side
+        D=P,  % position of canoe and davis is same
+        D1=left,  %finally davis is on left
+        D1=P1,  % position of canoe and davis is same
+        not(member(state(alice(A),bob(B),carol(C),davis(D1),canoe(P1)),Path)),
+        append(PaddlersList,[davis],NewPaddlersList),
+        append(AnswerList,[(davis,none)],NewAnswerList)
+    )).
+
+%when carol and davis crosses the river
+move(state(alice(A),bob(B),carol(C),davis(D),canoe(P)), state(alice(A),bob(B),carol(C1),davis(D1),canoe(P1)),Path,PaddlersList,NewPaddlersList,AnswerList,NewAnswerList):-
+    ((
+        C=left,  %originally carol is on left side
+        C=D,    %carol and davis are on same side
+        C=P,    %carol and canoe are on same side
+        C1= right,  %finally carol is on right
+        C1=D1,  %davis also reached right 
+        C1=P1,  % canoe and carol position is same
+        not(member(state(alice(A),bob(B),carol(C1),davis(D1),canoe(P1)),Path)),
+        append(PaddlersList,[carol],NewPaddlersList),
+        append(AnswerList,[(carol,davis)],NewAnswerList)
+    )).
+move(state(alice(A),bob(B),carol(C),davis(D),canoe(P)), state(alice(A),bob(B),carol(C1),davis(D1),canoe(P1)),Path,PaddlersList,NewPaddlersList,AnswerList,NewAnswerList):-
+    ((
+        D=left,  %originally carol is on left side
+        D=C,    %carol and davis are on same side
+        D=P,    %carol and canoe are on same side
+        D1= right,  %finally carol is on right
+        D1=C1,  %davis also reached right 
+        D1=P1,  % canoe and carol position is same 
+        not(member(state(alice(A),bob(B),carol(C1),davis(D1),canoe(P1)),Path)),
+        append(PaddlersList,[davis],NewPaddlersList),
+        append(AnswerList,[(davis,carol)],NewAnswerList)
+    )).
+
+%when bob and carol crosses the river
+move(state(alice(A),bob(B),carol(C),davis(D),canoe(P)), state(alice(A),bob(B1),carol(C1),davis(D),canoe(P1)),Path,PaddlersList,NewPaddlersList,AnswerList,NewAnswerList):-
+    ((
+        B=left,  %originally bob is on left side
+        B=C,    %carol and bob are on same side
+        B=P,    %bob and canoe are on same side
+        B1= right,  %finally bob is on right
+        B1=C1,  %carol also reached right 
+        B1=P1,  % canoe and bob position is same
+        not(member(state(alice(A),bob(B1),carol(C1),davis(D),canoe(P1)),Path)),
+        append(PaddlersList,[bob],NewPaddlersList),
+        append(AnswerList,[(bob,carol)],NewAnswerList)
+    )).
+move(state(alice(A),bob(B),carol(C),davis(D),canoe(P)), state(alice(A),bob(B1),carol(C1),davis(D),canoe(P1)),Path,PaddlersList,NewPaddlersList,AnswerList,NewAnswerList):-
+    ((
+        C=left,  %originally bob is on left side
+        C=B,    %carol and bob are on same side
+        C=P,    %bob and canoe are on same side
+        C1= right,  %finally bob is on right
+        C1=B1,  %carol also reached right 
+        C1=P1,  % canoe and bob position is same 
+        not(member(state(alice(A),bob(B1),carol(C1),davis(D),canoe(P1)),Path)),
+        append(PaddlersList,[carol],NewPaddlersList),
+        append(AnswerList,[(carol,bob)],NewAnswerList)
+    )).
+
+%when bob and davis crosses the river
+move(state(alice(A),bob(B),carol(C),davis(D),canoe(P)), state(alice(A),bob(B1),carol(C),davis(D1),canoe(P1)),Path,PaddlersList,NewPaddlersList,AnswerList,NewAnswerList):-
+    ((
+        D=left,  %originally davis is on left side
+        D=B,    %davis and bob are on same side
+        D=P,    %davis and canoe are on same side
+        D1= right,  %finally davis is on right
+        D1=B1,  %bob also reached right 
+        D1=P1,  % davis and bob position is same
+        not(member(state(alice(A),bob(B1),carol(C),davis(D1),canoe(P1)),Path)),
+        append(PaddlersList,[davis],NewPaddlersList),
+        append(AnswerList,[(davis,bob)],NewAnswerList)
+    )).
+%alice and carol crossing the river
+move(state(alice(A),bob(B),carol(C),davis(D),canoe(P)), state(alice(A1),bob(B),carol(C1),davis(D),canoe(P1)),Path,PaddlersList,NewPaddlersList,AnswerList,NewAnswerList):-
+    ((
+        C=left,  %originally carol is on left side
+        C=A,    %carol and alice are on same side
+        C=P,    %carol and canoe are on same side
+        C1= right,  %finally bob is on right
+        C1=A1,  %alice also reached right 
+        C1=P1,  % canoe and bob position is same
+        not(member(state(alice(A1),bob(B),carol(C1),davis(D),canoe(P1)),Path)),
+        append(PaddlersList,[carol],NewPaddlersList),
+        append(AnswerList,[(carol,alice)],NewAnswerList)
+    )).
+
+%alice and davis 
+move(state(alice(A),bob(B),carol(C),davis(D),canoe(P)), state(alice(A1),bob(B),carol(C),davis(D1),canoe(P1)),Path,PaddlersList,NewPaddlersList,AnswerList,NewAnswerList):-
+    ((
+        D=left,  %originally carol is on left side
+        D=A,    %carol and alice are on same side
+        D=P,    %carol and canoe are on same side
+        D1= right,  %finally bob is on right
+        D1=A1,  %alice also reached right 
+        D1=P1,  % canoe and bob position is same
+        not(member(state(alice(A1),bob(B),carol(C),davis(D1),canoe(P1)),Path)),
+        append(PaddlersList,[davis],NewPaddlersList),
+        append(AnswerList,[(davis,alice)],NewAnswerList)
+    )).
+%to print the final answer . The list contain tuples of people crossing river with the first person in tuple be the paddler.
+print_tuples([]).
+print_tuples([(X,none) | T]) :-
+    write(X),
+    write(' moves from right to left.'), nl,
+    print_tuples(T),
+    !.
+    
+print_tuples([(X,Y) | T]) :-
+    write(X), 
+    write(' takes '),
+    write(Y), 
+    write(' from left to right.'),nl,
+    print_tuples(T).
+
+find_path(Path,PaddlersList,AnswerList):- 
+    inital_state(S),
+    rest(S,Path,PaddlersList,AnswerList).
+    
+rest(State,Soln,PaddlersList,AnswerList):-
+    backtrace(State,[State],Soln,PaddlersList,AnswerList).
+
+%final state should be met and all mush have paddeled at least once
+backtrace(State,Path,[Path|State],PaddlersList,AnswerList):-
+    final_state(State),
+    member(alice,PaddlersList),
+    member(bob,PaddlersList),
+    member(carol,PaddlersList),
+    member(davis,PaddlersList),
+    print_tuples(AnswerList),nl,
+    double(PaddlersList),nl,
+    !.
+%recursive funciton for moving across the river.
+backtrace(State,Path,Soln,PaddlersList,AnswerList):-
+    move(State,Next,Path,PaddlersList,NewPaddlersList,AnswerList,NewAnswerList),
+    backtrace(Next,[Path|Next],Soln,NewPaddlersList,NewAnswerList).
+
+abcd:- find_path(E,[],[]).

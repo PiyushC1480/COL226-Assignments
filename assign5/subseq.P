@@ -1,0 +1,3 @@
+subsequence([], _).
+subsequence([X|XS], [X|XSS]) :- subsequence(XS, XSS).
+subsequence([X|XS], [_|XSS]) :- subsequence([X|XS], XSS). 

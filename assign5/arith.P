@@ -1,0 +1,29 @@
+% split  L into two L1 and L2 such that both have at least one element
+split_list(L, L1, L2) :-
+   append(L1, L2, L),  % concatenate 
+   L1 = [_|_],         % L1 is non-empty
+   L2 = [_|_].         %  L2 is non-empty
+
+% construct the arithmetic expression using L
+construct_expression(L, L_Term, R_Term) :-
+   split_list(L, LL, RL),        % split the list i
+   construct_term(LL, L_Term),  % construct left term
+   construct_term(RL, R_Term),  % construct right term
+   L_Term =:= R_Term.           % evaluate 
+
+% construct a term 
+construct_term([X], X).         % single number
+construct_term([X], -X).        % Unary minus
+construct_term(L, T) :-         %  binary term
+   split_list(L, LL, RL),       % split 
+   construct_term(LL, L_Term),  % construct left term
+   construct_term(RL, R_Term),  % construct right term
+   add_or_subtract_terms(L_Term, R_Term, T).  % construct the combined binary term
+
+% construct a binary term by adding or subtracting two terms
+add_or_subtract_terms(L_Term, R_Term, L_Term + R_Term).
+add_or_subtract_terms(L_Term, R_Term, L_Term - R_Term).
+
+arith(L) :- 
+   construct_expression(L, L_Term, R_Term),
+   format('~w = ~w\n', [L_Term, R_Term]).  % Print the resulting equation
